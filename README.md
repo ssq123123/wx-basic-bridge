@@ -123,3 +123,7 @@ Set-Content bridge\control\stop.txt stop -Encoding ascii
 python -m unittest discover -s tests -v
 powershell -ExecutionPolicy Bypass -File native\wx_hook_bridge\build.ps1 -SyntaxOnly
 ```
+
+## 参考文章
+
+[零基础实现微信自动发消息：从 0 到发出第一条文本消息](https://bk.47claude.com/posts/wechat-4-1-9-23-send-message-beginner-guide/#%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%AE%9E%E7%8E%B0%E5%BE%AE%E4%BF%A1%E8%87%AA%E5%8A%A8%E5%8F%91%E6%B6%88%E6%81%AF%E4%BB%8E-0-%E5%88%B0%E5%8F%91%E5%87%BA%E7%AC%AC%E4%B8%80%E6%9D%A1%E6%96%87%E6%9C%AC%E6%B6%88%E6%81%AF)
